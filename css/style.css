@@ -1,0 +1,88 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+.header {
+    min-height: 100vh;
+}
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+    width: 100%;
+    background: linear-gradient(180deg, #CADBEB 0%, rgba(235, 235, 235, 0.00) 100%);
+}
+.container {
+    max-width: 1220px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.header__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.menu__list {
+    display: flex;
+    gap: 0 40px;
+    align-items: center;
+}
+.menu__link {
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.menu__btn {
+    padding: 15px 58px;
+    border-radius: 30px;
+    border: 2px solid #000;
+    color: #fff;
+    text-transform: uppercase;
+    background: #000;
+    transition: all .3s ease-in;
+    font-size: 16px;
+    font-weight: 700;
+}
+.menu__btn:hover {
+    color: #000;
+    background: inherit;
+}
+.header__content {
+    position: relative;
+}
+.header__content-title {
+    font-size: 210px;
+    font-weight: 700;
+    padding: 130px 0 0 0;
+    position: absolute;
+}
+.title--air {
+}
+.title--pod {
+    position: relative;
+    z-index: -1;
+}
+.title--s {
+    display: inline-block;
+    transform: translate(20px, 65px);
+}
+.title--m {
+    display: inline-block;
+    transform: translate(-45px, 290px);
+}
+.title--ax {
+    display: inline-block;
+    transform: translate(905px, 200px);
+    position: relative;
+    z-index: -1;
+}
+.header__content-img {
+    text-align: center;
+    padding: 0 0 30px 0;
+}
