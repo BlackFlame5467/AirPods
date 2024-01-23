@@ -221,6 +221,13 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     margin: 20px 0 0 0;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+
+.audio__btn:hover {
+    color: #fff;
+    background: inherit;
 }
 
 /* Footer */
