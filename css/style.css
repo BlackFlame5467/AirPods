@@ -132,6 +132,18 @@ body {
     background: lightgray;
 }
 
+.color__inner-btn.color__inner-btn--active {
+    display: none;
+}
+
+.content__item {
+    display: none;
+} 
+
+.content__item.content__item--active {
+    display: inline-block;
+}
+
 /* Info */
 
 .info {
@@ -350,7 +362,7 @@ body {
     }
     .menu__link {
         font-size: 14px;
-    }
+    } 
     .header__logo {
         padding: 0 10px 0 0;
     }
