@@ -23,8 +23,24 @@ body {
     bottom: 0;
     z-index: -2;
     width: 100%;
+}
+
+.header:has(.color--blue.content__item--active)::before {
     background: linear-gradient(180deg, #CADBEB 0%, rgba(235, 235, 235, 0.00) 100%);
 }
+.header:has(.color--black.content__item--active)::before {
+    background: linear-gradient(180deg, #B6B6B6 0%, rgba(235, 235, 235, 0.00) 100%);
+}
+.header:has(.color--red.content__item--active)::before {
+    background: linear-gradient(180deg, #F3D6D1 0%, rgba(235, 235, 235, 0.00) 100%);  
+}
+.header:has(.color--green.content__item--active)::before {
+    background: linear-gradient(180deg, #DDEAD9 0%, rgba(235, 235, 235, 0.00) 100%);  
+}
+.header:has(.color--white.content__item--active)::before {
+    background: linear-gradient(180deg, #FAFAFA 0%, rgba(235, 235, 235, 0.00) 100%); 
+}
+
 .container {
     max-width: 1220px;
     padding: 0 10px;
